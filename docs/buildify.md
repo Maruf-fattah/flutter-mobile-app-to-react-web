@@ -23,8 +23,8 @@
 - [COMPLETED] Dashboard layout with sidebar navigation
 - [COMPLETED] Dashboard with financial overview cards and charts
 - [COMPLETED] Placeholder pages for all main features
-- [PENDING] Expense tracking functionality
-- [PENDING] Income management system
+- [COMPLETED] Expense tracking functionality
+- [COMPLETED] Income management system
 - [PENDING] Savings goals and progress tracking
 - [PENDING] Shop and vendor management
 - [PENDING] Budget analysis and reporting
