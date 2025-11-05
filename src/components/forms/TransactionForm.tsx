@@ -216,14 +216,14 @@ export function TransactionForm({
             <div className="space-y-2">
               <Label>Shop/Vendor</Label>
               <Select
-                value={formData.shop || ''}
-                onValueChange={(value) => setFormData(prev => ({ ...prev, shop: value }))}
+                value={formData.shop || 'none'}
+                onValueChange={(value) => setFormData(prev => ({ ...prev, shop: value === 'none' ? undefined : value }))}
               >
                 <SelectTrigger>
                   <SelectValue placeholder="Select a shop (optional)" />
                 </SelectTrigger>
                 <SelectContent>
-                  <SelectItem value="">No shop selected</SelectItem>
+                  <SelectItem value="none">No shop selected</SelectItem>
                   {shops.map(shop => (
                     <SelectItem key={shop.id} value={shop.name}>
                       {shop.name}
